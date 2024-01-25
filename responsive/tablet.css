@@ -1,0 +1,55 @@
+
+@media(min-width:768px) and (max-width:782px){
+
+header ul{
+    margin-top: -28px;
+}
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    
+    .all p{
+        margin: 20% 25%;
+    }
+
+    .all h3{
+        margin: 30% 30%;
+    }
+
+    .res{
+        height: 750px;
+    }
+
+    .ab1 p span:nth-of-type(2)::after,.ab1 p span:nth-of-type(3)::after,.ab1 p span:nth-of-type(4)::after,.ab1 p span:first-of-type::after{  
+        font-size: 15px;
+        font-size: bold;
+    }
+
+    header{
+        position: relative;
+        float: none;
+    }
+    
+    header ul{
+        margin-right: 35%;
+        margin-top: 30px;
+    }
+    
+    header ul li{
+        display: block;
+        padding-top: 10px;
+    }
+    
+    .test{
+        display: block;
+    }
+    
+    .test *{
+        float: right;
+        margin-right: 25px;
+        margin-top: 20px;
+    }
+
+
+}

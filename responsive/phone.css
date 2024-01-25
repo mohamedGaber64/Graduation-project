@@ -1,0 +1,87 @@
+
+@media(max-width:767px){
+
+header{
+    position: relative;
+    float: none;
+}
+
+header ul{
+    margin-right: 35%;
+    margin-top: 30px;
+}
+
+header ul li{
+    display: block;
+    padding-top: 10px;
+}
+
+.test{
+    display: block;
+}
+
+.test *{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.all p , .all h3{
+    font-size: 20px;
+}
+
+.all p{
+    margin-top: 30%;
+}
+
+.all h3{
+    margin-top: 50%;
+}
+
+.a p{
+    font-size: 15px;
+}
+
+.res{
+    height: 1350px;
+}
+
+.ab1 p span{
+    font-size: 20px;
+}
+
+.ab1 p span:first-of-type::after{
+    bottom: -40px;
+    font-size: 10px;
+    left: 13%;
+}
+
+.ab1 p span:nth-of-type(2)::after{
+    bottom: -40px;
+    font-size: 10px;
+    left: 33%;
+}
+
+.ab1 p span:nth-of-type(3)::after{
+    bottom: -40px;
+    font-size: 10px;
+    left: 53%;
+}
+
+.ab1 p span:nth-of-type(4)::after{
+    bottom: -40px;
+    font-size: 10px;
+    left: 73%;
+}
+
+.k1{
+    height: 500px;
+}
+    
+.map .mapouter{
+    width: 100%;
+}
+
+
+
+}

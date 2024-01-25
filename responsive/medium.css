@@ -1,0 +1,27 @@
+
+@media(min-width:992px) and (max-width:1199px){
+
+.pass form *{
+    width: 200px;
+}
+
+.ex img{
+    width: 100%;
+}
+
+.res{
+    height: 750px;
+}
+
+.ab1 p span:nth-of-type(2)::after,.ab1 p span:nth-of-type(3)::after,.ab1 p span:nth-of-type(4)::after,.ab1 p span:first-of-type::after{  
+    font-size: 17px;
+}
+
+.map .mapouter{
+    margin: 20px auto;
+}
+
+
+
+
+}
